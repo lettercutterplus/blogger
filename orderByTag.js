@@ -1,7 +1,7 @@
 // Thanks for Abu Farhan
 // original from http://www.abu-farhan.com
 
-// revised by lettercutterplus
+// revised by LL
 // dynamic blogger url
 // ajax loading icon before content load
 // only include 1 js file
