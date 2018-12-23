@@ -60,7 +60,7 @@ function startCount() {
 
 	var script = document.createElement('script');
 
-	script.src = "http://" + blogger_url + ".blogspot.hk/feeds/posts/summary?max-results=" + increment + "&alt=json-in-script&callback=myIncrement&start-index=" + startIndex;
+	script.src = "https://" + blogger_url + ".blogspot.hk/feeds/posts/summary?max-results=" + increment + "&alt=json-in-script&callback=myIncrement&start-index=" + startIndex;
 
 	document.body.appendChild(script);
 }
