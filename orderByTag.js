@@ -29,7 +29,7 @@ window.onload = function(e) {
 	document.body.appendChild(script);
 
 	var script = document.createElement('script');
-	script.src = "http://" + blogger_url + ".blogspot.hk/feeds/posts/summary?max-results=1000&alt=json-in-script&callback=loadtoc";
+	script.src = "https://" + blogger_url + ".blogspot.hk/feeds/posts/summary?max-results=1000&alt=json-in-script&callback=loadtoc";
 	document.body.appendChild(script);
 }
 
