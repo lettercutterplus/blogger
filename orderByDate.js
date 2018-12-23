@@ -143,13 +143,13 @@ function displayToc2() {
 	while (b < postTitle.length) {
 		temp1 = postYearMonth[b];
 		html = html + "<p/>";
-		html = html + '<p><atarget="_blank" href="' + postYearMonth2[b] + '">' + temp1 + "</a></p><ul>";
+		html = html + '<p><a href="' + postYearMonth2[b] + '">' + temp1 + "</a></p><ul>";
 
 		firsti = a;
 		do {
 
 			html = html + "<li>";
-			html = html + "[" + postTanggal[a] + '] <a target="_blank" href="' + postUrl[a] + '">' + postTitle[a] + "</a>";
+			html = html + "[" + postTanggal[a] + '] <a href="' + postUrl[a] + '">' + postTitle[a] + "</a>";
 			html = html + "</li>";
 
 			a = a + 1
